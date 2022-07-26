@@ -1,0 +1,21 @@
+
+*{
+    font-size: 1.5rem;
+}
+
+
+main{
+    display: flex;
+    alig
+    background-color: blue;
+    width: auto;
+    height: 600ox;
+}
+
+
+.cuadro{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}

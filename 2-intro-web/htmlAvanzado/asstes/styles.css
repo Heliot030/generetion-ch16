@@ -1,0 +1,43 @@
+body{
+    font-size: 1.5rem;
+    font-family: , Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(62, 130, 181);
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style: decimal;
+}
+h1{
+    background-color: darksalmon;
+    width: fit-content;
+}
+/* 
+div{
+    background-color: darkseagreen;
+    width: 200px ;
+    height: 200px;
+} */
+div{
+    display: inline-block;
+    background-color: darkslateblue;
+    width: 250px;
+}
+
+a{
+    background-color: fuchsia;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+
+}
+span{
+    background-color: rgb(59, 26, 161);
+    font-size: larger;
+    font-family: cursive;
+    font-weight: 700;
+    border: 1px dashed aqua;
+}
