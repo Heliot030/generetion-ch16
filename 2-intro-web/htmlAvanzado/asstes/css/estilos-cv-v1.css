@@ -1,0 +1,12 @@
+  .cabecera{
+    display: inline-block;
+    background-color: rgb(233, 87, 43);
+    width: 200px;
+    height: 800px;
+}
+
+
+.listas{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,51 @@
+.caja{
+    background-color: rgb(207, 182, 18);
+    height: 150px;
+    width: 150px;
+
+    margin-top:20px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+
+    padding: 50px;
+
+/*     display: inline-block; */
+
+    border: 10px solid yellow;
+
+    margin: 20px 40px;
+
+}
+
+.el-1{
+background-color: springgreen;
+position: fixed;
+bottom: 15px;
+right: 15px;
+}
+.el-2{
+    background-color: tan;
+  /*   position: absolute;
+    top: 2000px;
+    right: 200px; */
+    position: sticky;
+    top: 0px;
+
+}
+.el-3{
+    background-color: rgb(52, 10, 118);
+  /*   position: relative;
+    left: 200px;
+    bottom: 200px; */
+}
+.el-4{
+    background-color: rgb(26, 157, 142);
+/*     position: static;
+ */
+}
+.el-5{
+    background-color: rgb(149, 14, 32);
+    /* position: static; */
+    
+}
