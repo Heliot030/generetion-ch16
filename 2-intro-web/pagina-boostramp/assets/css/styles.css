@@ -1,0 +1,19 @@
+.img-carousel{
+    height:  calc(100vh - 80vh);
+    object-fit: cover;
+}
+.img-carta{
+    height: 600px;
+    object-fit: cover;
+}
+/* @media(max-width: 992px){
+
+    body {
+        background-color: blue;
+    }
+}
+ */
+ .caja{
+     position: relative;
+     top: -30px;
+ }
