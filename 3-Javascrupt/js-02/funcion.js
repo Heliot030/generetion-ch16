@@ -24,8 +24,4 @@ function miMultip(a,b){
 
 console.log("la suma es :" + miMultip(3,6));  */
 
-funtion miNombreCompeto(nombre1,nombre2,apellido){
-        return();
-}
-
-miNombreCompeto(efrain,heliot,leon);
+/* martes 3 victor   */
