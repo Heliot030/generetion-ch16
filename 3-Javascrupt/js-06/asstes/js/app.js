@@ -31,11 +31,7 @@ console.log(parrafos[2]);
 //jss fontSize 
 parrafos[2].style.fontSize = "2rem";
 
-//---------- ejersicio mio -------
-console.log(document.getElementById('elNuevo').textContent);
-const elNuevo= document.getElementById('elNuevo');
 
-elNuevo.style.color = 'red';
 
 /* Reemplazar eontenido */
 const parrafo5 = document.getElementById('parrafo5');
