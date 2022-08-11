@@ -1,16 +1,16 @@
 
 //url a consumir
-const urlPokemon="https://pokeapi.co/api/v2/pokemon/pikachu"
+const urlPokemon="https://pokeapi.co/api/v2/pokemon/67"
 
 //eleemntos del dom
 const imgPokemon= document.getElementById("img-pokemon")
-console.log(imgPokemon);
+//console.log(imgPokemon);
 
 const idPokemon= document.getElementById("id-pokemon")
-console.log(idPokemon);
+//console.log(idPokemon);
 
 const nombrePokemon= document.getElementById("nombre-pokemon")
-console.log(nombrePokemon);
+//console.log(nombrePokemon);
 
 
 //funciones
@@ -34,9 +34,10 @@ async function obtenerPokemon(url){
     }  
     //console.log(pokemon.imagen);
 
-    //imgPokemon.src = pokemon.imagen;
-    //idPokemon = 
-    //nombrePokemon
+    imgPokemon.src = pokemon.imagen;
+    idPokemon.textContent= pokemon.id;
+    nombrePokemon.textContent = pokemon.nombre;
+
 
 }
 obtenerPokemon(urlPokemon)
