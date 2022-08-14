@@ -64,3 +64,7 @@ let Persona = {
 Persona.lang = 'ES';
 console.log(Persona.leng);
 console.log(Persona.idioma);
+
+
+
+
